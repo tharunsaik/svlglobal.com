@@ -10,24 +10,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/animated-headlines.css">
+    <link rel="stylesheet" href="assets/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>SVL Global</title>
+    <link rel="icon" href="assets/img/fav.png" type="image/gif">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <section class="bg-black top-bar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/img/svl-global-logo-white.svg" alt="" height="60"></a>
+        <div class="row">
+          <div class="col">
+            <nav class="nav divided justify-content-end">
+              <a href="#" class="nav-link">Link 1</a>
+              <a href="#" class="nav-link">Link 2</a>
+              <a href="#" class="nav-link">Link 3</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/img/svl-global-logo.svg" alt="" height="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarHome">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link active" href="#">Home</a>
             <a class="nav-item nav-link" href="#">Abouts Us</a>
-            <a class="nav-item nav-link active" href="#">Services</a>
+            <a class="nav-item nav-link" href="#">Services</a>
             <a class="nav-item nav-link" href="#">Stake Holders</a>
             <a class="nav-item nav-link" href="#">Opportunities</a>
             <a class="nav-item nav-link" href="#">Contact Us</a>
@@ -57,20 +73,20 @@
 				<div class="col-md-6 d-none d-md-block p-0 position-absolute top-0 right-0 align-top align-text-top">
 					<figure class="w-100 ie-height-750">
 						<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1290 1024" style="enable-background:new 0 0 1290 1024;" xml:space="preserve">
-					<g id="XMLID_81_">
-						<defs>
-						<path id="XMLID_3_" d="M1290,0v1024c0,0-229.8-152.2-550-52.9C467.3,1055.7-22.5,927.6,47.8,540C120.4,139.6,17,0,17,0H1290z"/>
-						</defs>
-						<clippath id="XMLID_83_">
-						<use xlink:href="#XMLID_3_"  style="overflow:visible;"/>
-						</clippath>
-						<g style="clip-path:url(#XMLID_83_);">
-							<!-- Set your 1290px X 1024px image below -->
-							<image style="overflow:visible;" width="1290" height="1024" id="XMLID_82_" xlink:href="assets/img/10.jpg"  transform="matrix(0.9999 0 0 0.9999 8.063897e-002 6.401104e-002)">
-							</image>
-						</g>
-					</g>
-				</svg>
+              <g id="XMLID_81_">
+                <defs>
+                <path id="XMLID_3_" d="M1290,0v1024c0,0-229.8-152.2-550-52.9C467.3,1055.7-22.5,927.6,47.8,540C120.4,139.6,17,0,17,0H1290z"/>
+                </defs>
+                <clippath id="XMLID_83_">
+                <use xlink:href="#XMLID_3_"  style="overflow:visible;"/>
+                </clippath>
+                <g style="clip-path:url(#XMLID_83_);">
+                  <!-- Set your 1290px X 1024px image below -->
+                  <image style="overflow:visible;" width="1290" height="1024" id="XMLID_82_" xlink:href="assets/img/10.jpg"  transform="matrix(0.9999 0 0 0.9999 8.063897e-002 6.401104e-002)">
+                  </image>
+                </g>
+              </g>
+            </svg>
 					</figure>
 				</div>
 			</div>
@@ -88,15 +104,13 @@
       <div class="row">
         <div class="col">
           <div class="card shadow-lg domains">
-            <div class="card-body">
               <nav class="owl-carousel owl-theme nav">
-                <a class="item nav-link" href="http://tpilots.com/" target="_blank"><img src="assets/img/svltpilots.svg" alt="SVL T-Pilots"></a>
-                <a class="item nav-link" href="http://svlcarcare.com/" target="_blank"><img src="assets/img/svlcarcare.svg" alt="SVL Car Care"></a>
-                <a class="item nav-link" href="http://svlroadassist.com/" target="_blank"><img src="assets/img/svlroadassist.svg" alt="SVL Road Assist"></a>
-                <a class="item nav-link" href="http://svlproinsure.com/" target="_blank"><img src="assets/img/svlproinsure.svg" alt="SVL Pro Insure"></a>
-                <a class="item nav-link" href="http://svlpromocare.com/" target="_blank"><img src="assets/img/svlpromocare.svg" alt="SVL Promo Care"></a>
+                <a class="item nav-link hvr-push w-100" href="http://tpilots.com/" target="_blank"><img src="assets/img/svltpilots.svg" alt="SVL T-Pilots"></a>
+                <a class="item nav-link hvr-push w-100" href="http://svlcarcare.com/" target="_blank"><img src="assets/img/svlcarcare.svg" alt="SVL Car Care"></a>
+                <a class="item nav-link hvr-push w-100" href="http://svlroadassist.com/" target="_blank"><img src="assets/img/svlroadassist.svg" alt="SVL Road Assist"></a>
+                <a class="item nav-link hvr-push w-100" href="http://svlproinsure.com/" target="_blank"><img src="assets/img/svlproinsure.svg" alt="SVL Pro Insure"></a>
+                <a class="item nav-link hvr-push w-100" href="http://svlpromocare.com/" target="_blank"><img src="assets/img/svlpromocare.svg" alt="SVL Promo Care"></a>
               </nav>
-            </div>
           </div>
         </div>
       </div>
@@ -247,7 +261,6 @@
     <script src="assets/js/mixitup.min.js"></script>
     <script>
         var containerEl = document.querySelector('.services');
-
         var mixer = mixitup(containerEl);
     </script>
     <script src="assets/js/owl.carousel.min.js"></script>
@@ -278,14 +291,19 @@
           $(".fixed-top").addClass("bg-white");
           $(".fixed-top").addClass("shadow");
           $(".fixed-top").addClass("navbarFixed");
-          $('.navbar-brand img').attr('src','assets/img/svl-global-logo.svg'); //change src
         } else {
           $(".fixed-top").removeClass("bg-white");
           $(".fixed-top").removeClass("shadow");
           $(".fixed-top").removeClass("navbarFixed");
-          $('.navbar-brand img').attr('src','assets/img/svl-global-logo-white.svg')
         }   
     });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.domain-link').hover(function(){
+            $(this).addClass('animated bounceIn');
+        });
+      });
     </script>
   </body>
 </html>
