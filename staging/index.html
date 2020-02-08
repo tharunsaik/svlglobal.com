@@ -17,26 +17,17 @@
     <title>SVL Global</title>
   </head>
   <body>
-    <section class="bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            
-          </div>
-        </div>
-      </div>
-    </section>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/img/svl-global-logo.svg" alt="" height="50"></a>
+        <a class="navbar-brand" href="#"><img src="assets/img/svl-global-logo-white.svg" alt="" height="60"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarHome">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Home</a>
             <a class="nav-item nav-link" href="#">Abouts Us</a>
-            <a class="nav-item nav-link" href="#">Services</a>
+            <a class="nav-item nav-link active" href="#">Services</a>
             <a class="nav-item nav-link" href="#">Stake Holders</a>
             <a class="nav-item nav-link" href="#">Opportunities</a>
             <a class="nav-item nav-link" href="#">Contact Us</a>
@@ -287,10 +278,12 @@
           $(".fixed-top").addClass("bg-white");
           $(".fixed-top").addClass("shadow");
           $(".fixed-top").addClass("navbarFixed");
+          $('.navbar-brand img').attr('src','assets/img/svl-global-logo.svg'); //change src
         } else {
           $(".fixed-top").removeClass("bg-white");
           $(".fixed-top").removeClass("shadow");
           $(".fixed-top").removeClass("navbarFixed");
+          $('.navbar-brand img').attr('src','assets/img/svl-global-logo-white.svg')
         }   
     });
     </script>
