@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+  background: #0674ed;
+  height: 100vh;
+}
+.counting{
+  background-image: url("../img/bg-top.svg"), url("../img/bg-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right top, bottom left;
+  background-size: 50rem, 20rem ;
+}
+@media (min-width: 960px){
+  .uk-countdown-number {
+      font-size: 5rem;
+  }
+}
